@@ -1,7 +1,5 @@
 ## Enumerate subdomains of a specified domain without the need of an API key
 
-<br/>
-
 ### Syntax to enumerate subdomains
 ```
 user@debian:~$ ./subdomains.sh -u example.com
