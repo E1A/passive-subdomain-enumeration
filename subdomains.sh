@@ -73,7 +73,7 @@ echo "All discovered subdomains have been saved to ${output_file}"
 
 # Run HTTPX scan if -ad option is provided
 if [ "$do_httpx_scan" = true ]; then
-    echo "Performing HTTPX scan on discovered subdomains..."
+    echo "Starting HTTPX on discovered subdomains..."
     httpx -l "${output_file}" > "${httpx_output_file}"
     echo "HTTPX results have been saved to ${httpx_output_file}"
 fi
